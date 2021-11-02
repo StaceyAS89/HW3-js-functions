@@ -66,3 +66,9 @@ function isBigger(a,b) {
     return a > b;
 }
 isBigger(5, -1);
+
+console.log('------------- #9')
+function isSmaller(a,b) {
+    return a > b;
+}
+isSmaller(5, -1);
