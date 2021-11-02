@@ -73,5 +73,5 @@ console.log('------------- #9')
 function isSmaller(a,b) {
     return a < b;
 }
-let result = isSmaller(5,-1);
-console.log(result);
+let resultSmaller = isSmaller(5,-1);
+console.log(resultSmaller);
