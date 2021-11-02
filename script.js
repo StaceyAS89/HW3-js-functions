@@ -63,15 +63,15 @@ pow(2,10);
 console.log('------------- #8')
 
 function isBigger(a,b) {
-    result =  a > b;
-    return result;
+    return a > b;
 }
-   
-isBigger(5, -1);
+let result = isBigger(5, -1);
+console.log(result);
 
 console.log('------------- #9')
 
 function isSmaller(a,b) {
     return a < b;
 }
-isSmaller(5,-1);
+let result = isSmaller(5,-1);
+console.log(result);
